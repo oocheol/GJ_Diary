@@ -31,6 +31,7 @@ constraint diary_m_id_fk foreign key (m_id)
 references member (m_id)
 );
 
+select * from DIARY
 
 create table character_img(
 c_id varchar2(20),
